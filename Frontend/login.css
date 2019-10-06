@@ -1,0 +1,87 @@
+* {
+  color: #ddd;
+  margin-right:auto;
+  margin-left:auto;
+  width: 100%;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  box-sizing: border-box;
+  }
+
+.heading {
+    font-family:'Palatino';
+    text-align:center;
+    margin-top:10%;
+    margin-bottom:0%;
+}
+
+/*Input fields*/
+input[type=text], input[type=password] {
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+}
+
+/*Submit button*/
+input[type=submit] {
+  background-color: #51a6c7;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  font-size: 17px;
+}
+
+input:hover {
+  opacity: 1;
+}
+
+/*usernamepass*/
+.input-container {
+  margin-top: 2%;  
+  height: 7%;
+  width: 40%;
+}
+
+/* Two-column layout */
+.col {
+  margin-top: 0%;
+  margin-bottom: 5%;  
+  height: 5%;
+  width: 40%;
+}
+
+/*FB, twitter and google buttons*/
+.fb {
+  background-color: #3B5998;
+}
+
+.twitter {
+  background-color: #55ACEE;
+}
+
+.google {
+  background-color: #dd4b39;
+}
+
+/*Input and link buttons*/
+input, .btn {
+  padding: 2%;
+  opacity: 0.9;
+  display: inline-block;
+  font-size: 17px;
+}
+
+input:hover, .btn:hover{
+  opacity: 1;
+}
+
+/*Sign up, Forgot password*/
+.redirect {
+  font-family:'Verdana';
+  display:flex;
+  text-align: center;
+  width: 40%;
+  font-size: 17px;
+}
